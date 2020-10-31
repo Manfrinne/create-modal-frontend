@@ -58,3 +58,21 @@
     top: 0px;  
     /* visibility: hidden; */
   }
+
+  .modal-overlay .modal {
+    width: 500px;
+    height: 370px;
+    margin: 20vh auto;
+    background-color: #ffffff;
+  }
+
+  .modal-overlay .modal .modal-content {
+      position: absolute;
+  }
+
+  .modal-overlay .modal .modal-content .card {
+    width: 480px;
+    height: 350px;
+    margin: 10px;
+    position: relative;
+  }
