@@ -1,0 +1,60 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  html,
+  body {
+    height: 100vh;
+  }
+  
+  header {
+    width: 100%;
+    height: 80px;
+    background: #C4C4C4;
+  }
+  
+  .container {
+    width: 80%;
+    height: 700px;
+    margin: 80px auto;
+    /* background-color: black; */
+  }
+  
+  .cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 3%;
+  }
+  
+  .card-1 {
+    width: 350px;
+    height: 480px;
+    background-color: #7EAD83;
+  }
+  
+  .card-2 {
+    width: 350px;
+    height: 480px;
+    background-color: #E1C099;
+  }
+  
+  .card-3 {
+    width: 350px;
+    height: 480px;
+    background-color: #C68F8F;
+  }
+  
+  /* Model overlay */
+  
+  .modal-overlay {
+    width: 100%;
+    height: 100%;
+    
+    background-color: rgba(0 , 0, 0, 0.7);
+  
+    position: fixed;
+    top: 0px;  
+    /* visibility: hidden; */
+  }
