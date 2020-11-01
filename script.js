@@ -4,9 +4,10 @@ const modalContent = document.querySelector('.modal-content')
 
 for (let card of cards) {
     card.addEventListener("click", function() {
-        const cardId = card.getAttribute("id")
+        const colorCard = card.getAttribute("color")
+        const backgroundCardModal = document.getElementById("card-modal")
         modalOverley.classList.add("active")
-        console.log(cardId)
+        backgroundCardModal.style.background=`${colorCard}`
     })
 }
 
